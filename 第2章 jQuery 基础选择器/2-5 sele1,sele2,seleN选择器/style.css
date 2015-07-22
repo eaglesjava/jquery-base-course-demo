@@ -1,0 +1,13 @@
+div {
+	width: 200px;
+	margin: 5px;
+}
+.red {
+	border: 2px solid Red;
+}
+.green {
+	border: 2px solid green;
+}
+.blue {
+	border: 2px solid blue;
+}
