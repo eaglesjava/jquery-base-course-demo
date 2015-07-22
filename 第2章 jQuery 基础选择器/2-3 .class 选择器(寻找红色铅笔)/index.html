@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>.class选择器</title>
+		<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="red">立正，向我这边看齐</div>
+        <div class="green">我先歇歇脚</div>
+	</body>
+	<script>
+		var $className = $(".red").html();
+		$(".green").html($className);
+	</script>
+</html>
