@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>操作元素属性</title>
+		<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<h3>attr()方法设置元素属性</h3>
+		<a href="http://127.0.0.1" id="a1">点我就变</a>
+		<div>
+			我改变后的地址是：
+			<span id="tip"></span>
+		</div>
+	</body>
+	<script>
+		$("#a1").attr("href","www.zhaowanbao.com");
+		var $url = $("#a1").attr("href");
+		$("#tip").html($url);
+	</script>
+
+</html>
